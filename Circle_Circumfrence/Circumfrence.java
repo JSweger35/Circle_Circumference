@@ -8,8 +8,7 @@
 public class Circumfrence
 {
     private double Radius; // Fahrenheit temperature
-    private double Circumfrence; // Celsius temperature
-    private double degreesKelvin; // Kelvin temperature
+    private double Circumfrence; // Circumfrence
 
     /**
      * Default constructor for Circumfrence sets the default
