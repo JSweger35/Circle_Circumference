@@ -44,7 +44,7 @@ public class Circumfrence
     }
     
     /**
-     * getDegreesCelsius retrieves the Celsius temperature value
+     * getCircumfrence retrieves the Circumfrence value
      * 
      * @return a double value containing the Celsius temperature
      */
