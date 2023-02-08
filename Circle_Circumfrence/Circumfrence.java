@@ -1,20 +1,19 @@
 
 /**
- * Write a description of class Temperature here.
- * Temperature stores a temperature in Fahrenheit, Celsius, and Kelvin scales.
+ * Write a description of class Circumfrence here.
+ * Circumfrence stores a radius of a circle.
  * @author Jake Sweger
  * @version Version 1.0
  */
 public class Circumfrence
 {
-    private double degreesFahrenheit; // Fahrenheit temperature
-    private double degreesCelsius; // Celsius temperature
+    private double Radius; // Fahrenheit temperature
+    private double Circumfrence; // Celsius temperature
     private double degreesKelvin; // Kelvin temperature
 
     /**
-     * Default constructor for Temperature sets the default
-     * value of the Temperature object to 0.0 degrees
-     * Fahrenheit with Celsius and Kelvin equivalents
+     * Default constructor for Circumfrence sets the default
+     * value of the Circumfrence object to 0.0 degrees
      */
     public Circumfrence() {
         this(0.0);
@@ -24,23 +23,24 @@ public class Circumfrence
      * This constructor for Temperature sets the Fahrenheit
      * value to the value from degrees, then calculates
      * equivalent Celsius and Kelvin values using the method
-     * setDegreesFahrenheit()
+     * setRadius()
      * 
      * @param degrees degrees Fahrenheit
      */
     public Circumfrence(double degrees) {
-        setDegreesFahrenheit(degrees);
+        setRadius(degrees);
     }
 
     /**
-     * The setDegreesFahrenheit method sets the Fahrenheit temperature
+     * The setRadius method sets the Fahrenheit temperature
      * 
      * @param degrees The Fahrenheit value to store 
      */
-    public void setDegreesFahrenheit(double degrees) {
-        degreesFahrenheit = degrees; // set Fahrenheit value
-        degreesCelsius = (degreesFahrenheit - 32.0) * 5.0 / 9.0; // set Celsius
-        degreesKelvin = degreesCelsius + 273.15; // set Kelvin value
+    public void setRadius(double degrees) {
+        Radius = degrees; // set Fahrenheit value
+        Circumfrence = 2 * Radius * 3.141592653589793;
+        //degreesCelsius = (Radius - 32.0) * 5.0 / 9.0; // set Celsius
+        //degreesKelvin = degreesCelsius + 273.15; // set Kelvin value
     }
     
     /**
@@ -48,8 +48,8 @@ public class Circumfrence
      * 
      * @return a double value containing the Celsius temperature
      */
-    public double getDegreesCelsius() {
-        return degreesCelsius;
+    public double getCircumfrence() {
+        return Circumfrence;
     }
 
     /**

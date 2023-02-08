@@ -11,27 +11,19 @@ public class CircumfrenceDriver {
      * displays their Celsius and Kelvin equivalents.
      */
     public static void main(String[] args) {
-        double inputTemperature = 0.0;
+        double inputRadius = 0.0;
         Scanner keyboard = new Scanner(System.in); 
         Circumfrence t1 = new Circumfrence();
         Circumfrence t2;
-        System.out.print("Enter a Fahrenheit temperature: "); 
-        inputTemperature = keyboard.nextDouble(); 
-        System.out.println("You entered " + inputTemperature + 
-                " degrees Fahrenheit"); 
-        t1.setDegreesFahrenheit(inputTemperature);
-        System.out.println("which is " + t1.getDegreesCelsius() + 
-                " degrees Celsius"); 
-        System.out.println("and " + t1.getDegreesKelvin() + 
-                " degrees Kelvin.");
-        System.out.print("Enter another Fahrenheit temperature: ");
-        inputTemperature = keyboard.nextDouble();
-        System.out.println("You entered " + inputTemperature + 
-                " degrees Fahrenheit");
-        t2 = new Circumfrence(inputTemperature);
-        System.out.println("which is " + t2.getDegreesCelsius() + 
-                " degrees Celsius");
-        System.out.println("and " + t2.getDegreesKelvin() + 
-                " degrees Kelvin.");
+        System.out.print("Enter the radius of a sphere: "); 
+        inputRadius = keyboard.nextDouble(); 
+        System.out.println("You entered " + inputRadius); 
+        t1.setRadius(inputRadius);
+        System.out.println("The circumference is " + t1.getCircumfrence()); 
+        System.out.print("Enter another radius: ");
+        inputRadius = keyboard.nextDouble();
+        System.out.println("You entered " + inputRadius);
+        t2 = new Circumfrence(inputRadius);
+        System.out.println("The circumference is " + t2.getCircumfrence());
     }
 }
