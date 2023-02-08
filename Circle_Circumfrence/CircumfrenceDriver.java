@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
-* TemperatureDriver runs and tests the Temperature class.
+* CircumfrenceDriver runs and tests the Circumfrence class.
 * 
 * @author Jake Sweger
 * @version 1.0
