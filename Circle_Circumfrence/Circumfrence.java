@@ -37,7 +37,7 @@ public class Circumfrence
      * @param degrees The Fahrenheit value to store 
      */
     public void setRadius(double degrees) {
-        Radius = degrees; // set Fahrenheit value
+        Radius = degrees; // set Radius value
         Circumfrence = 2 * Radius * 3.141592653589793;
     }
     
