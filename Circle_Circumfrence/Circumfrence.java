@@ -25,8 +25,8 @@ public class Circumfrence
      * 
      * @param radius radius Circumfrence
      */
-    public Circumfrence(double degrees) {
-        setRadius(degrees);
+    public Circumfrence(double radius) {
+        setRadius(radius);
     }
 
     /**
@@ -34,8 +34,8 @@ public class Circumfrence
      * 
      * @param radius Circumfrence value to store 
      */
-    public void setRadius(double degrees) {
-        Radius = degrees; // set Radius value
+    public void setRadius(double radius) {
+        Radius = radius; // set Radius value
         Circumfrence = 2 * Radius * 3.141592653589793;
     }
     
