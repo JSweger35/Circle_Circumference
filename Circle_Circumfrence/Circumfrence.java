@@ -42,7 +42,7 @@ public class Circumfrence
     /**
      * getCircumfrence retrieves the Circumfrence value
      * 
-     * @return a double value containing the Celsius temperature
+     * @return a double value containing the Circumfrence
      */
     public double getCircumfrence() {
         return Circumfrence;
