@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Circumference
+comment0.text=\n\ Write\ a\ description\ of\ class\ Circumference\ here.\n\ Circumference\ stores\ a\ radius\ of\ a\ circle.\n\ @author\ Jake\ Sweger\n\ @version\ Version\ 1.0\n
+comment1.params=
+comment1.target=Circumference()
+comment1.text=\n\ Default\ constructor\ for\ Circumference\ sets\ the\ default\n\ value\ of\ the\ Circumference\ object\ to\ 0.0\ degrees\n
+comment2.params=radius
+comment2.target=Circumference(double)
+comment2.text=\n\ This\ constructor\ for\ Circumference\ sets\ the\ Circumference\n\ value\ to\ the\ value\ from\ radius,\ then\ calculates\n\ Circumference\ from\ radius\n\ \n\ @param\ radius\ radius\ Circumference\n
+comment3.params=radius
+comment3.target=void\ setRadius(double)
+comment3.text=\n\ The\ setRadius\ method\ sets\ the\ radius\ value\n\ \n\ @param\ radius\ Circumference\ value\ to\ store\ \n
+comment4.params=
+comment4.target=double\ getCircumference()
+comment4.text=\n\ getCircumference\ retrieves\ the\ Circumference\ value\n\ \n\ @return\ a\ double\ value\ containing\ the\ Circumference\n
+numComments=5

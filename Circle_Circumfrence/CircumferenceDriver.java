@@ -1,11 +1,11 @@
 import java.util.Scanner;
 /**
-* CircumfrenceDriver runs and tests the Circumfrence class.
+* CircumferenceDriver runs and tests the Circumference class.
 * 
 * @author Jake Sweger
 * @version 1.0
 */
-public class CircumfrenceDriver {
+public class CircumferenceDriver {
     /**
      * main() reads two Fahrenheit temperatures and 
      * displays their Celsius and Kelvin equivalents.
@@ -13,17 +13,17 @@ public class CircumfrenceDriver {
     public static void main(String[] args) {
         double inputRadius = 0.0;
         Scanner keyboard = new Scanner(System.in); 
-        Circumfrence t1 = new Circumfrence();
-        Circumfrence t2;
+        Circumference t1 = new Circumference();
+        Circumference t2;
         System.out.print("Enter the radius of a sphere: "); 
         inputRadius = keyboard.nextDouble(); 
         System.out.println("You entered " + inputRadius); 
         t1.setRadius(inputRadius);
-        System.out.println("The circumference is " + t1.getCircumfrence()); 
+        System.out.println("The circumference is " + t1.getCircumference()); 
         System.out.print("Enter another radius: ");
         inputRadius = keyboard.nextDouble();
         System.out.println("You entered " + inputRadius);
-        t2 = new Circumfrence(inputRadius);
-        System.out.println("The circumference is " + t2.getCircumfrence());
+        t2 = new Circumference(inputRadius);
+        System.out.println("The circumference is " + t2.getCircumference());
     }
 }
