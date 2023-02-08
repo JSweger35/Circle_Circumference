@@ -52,12 +52,4 @@ public class Circumfrence
         return Circumfrence;
     }
 
-    /**
-     * getDegreesKelvin retrieves the Kelvin temperature value
-     * 
-     * @return a double value containing the Kelvin temperature
-     */
-    public double getDegreesKelvin() {
-        return degreesKelvin;
-    }
 }
