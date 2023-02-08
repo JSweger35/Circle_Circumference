@@ -20,12 +20,11 @@ public class Circumfrence
     }
     
     /**
-     * This constructor for Temperature sets the Fahrenheit
-     * value to the value from degrees, then calculates
-     * equivalent Celsius and Kelvin values using the method
-     * setRadius()
+     * This constructor for Circumfrence sets the Circumfrence
+     * value to the value from radius, then calculates
+     * Circumfrence from radius
      * 
-     * @param degrees degrees Fahrenheit
+     * @param radius radius Circumfrence
      */
     public Circumfrence(double degrees) {
         setRadius(degrees);
