@@ -12,5 +12,5 @@ comment3.target=void\ setRadius(double)
 comment3.text=\n\ The\ setRadius\ method\ sets\ the\ Fahrenheit\ temperature\n\ \n\ @param\ degrees\ The\ Fahrenheit\ value\ to\ store\ \n
 comment4.params=
 comment4.target=double\ getCircumfrence()
-comment4.text=\n\ getDegreesCelsius\ retrieves\ the\ Celsius\ temperature\ value\n\ \n\ @return\ a\ double\ value\ containing\ the\ Celsius\ temperature\n
+comment4.text=\n\ getCircumfrence\ retrieves\ the\ Circumfrence\ value\n\ \n\ @return\ a\ double\ value\ containing\ the\ Celsius\ temperature\n
 numComments=5

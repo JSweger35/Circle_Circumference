@@ -39,8 +39,6 @@ public class Circumfrence
     public void setRadius(double degrees) {
         Radius = degrees; // set Fahrenheit value
         Circumfrence = 2 * Radius * 3.141592653589793;
-        //degreesCelsius = (Radius - 32.0) * 5.0 / 9.0; // set Celsius
-        //degreesKelvin = degreesCelsius + 273.15; // set Kelvin value
     }
     
     /**
